@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(230, 243, 255);
+}
+
+#mainDiv{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    align-items: center;
+    width: 60em;
+    min-height: 18em;
+    height: auto;
+    border: solid 5px rgb(205, 232, 255);
+    border-radius: 2em;
+}
+
+#titolAcudits{
+    color: #221E22;
+    margin-bottom: 10px;
+    height: auto;
+    font-size: 2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mostrarAcudits{
+    text-align: center;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+    max-width: 600px;
+}
+
+#buttonsDiv{
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#buttonStyle{
+    margin-inline: 15px;
+    font-size: 30px;
+    background-color: rgba(250, 235, 215, 0);
+    border: 0px rgba(0, 0, 0, 0);
+}
+
+#buttonStyle:hover{
+    margin-inline: 15px;
+    font-size: 45px;
+    background-color: rgba(250, 235, 215, 0);
+    border: 0px rgba(0, 0, 0, 0);
+}
+
+#buttonStyle:active{
+    margin-inline: 15px;
+    font-size: 45px;
+    background-color: rgba(250, 235, 215, 0);
+    border: 0px rgba(0, 0, 0, 0);
+}
+
+
+#cridarAcudits{
+    margin-top: 240px;
+    position: fixed;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    border-radius: 2em;
+    background-color: rgb(205, 232, 255);
+    border: solid 2px rgb(205, 232, 255);
+}
+
+#cridarAcudits:hover{
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    border-radius: 2em;
+    background-color: rgb(226, 247, 255);
+    border: solid 2px rgb(226, 247, 255);
+}
+
+#cridarAcudits:active{
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    border-radius: 2em;
+    background-color: rgb(161, 228, 255);
+    border: solid 2px rgb(161, 228, 255);
+}
+
+
+
